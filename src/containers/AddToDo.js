@@ -4,7 +4,6 @@ import { addTodo } from '../actions/index'
 import { connect } from 'react-redux'
 
 
-
 const AddToDo = ({ dispatch }) => {
     let inputValue;
     const addToDoList = () => {

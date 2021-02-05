@@ -5,7 +5,7 @@ const ToDo = (props) => {
         <li
             key={props.id}
             onClick={props.onClick}
-            style={{ textDecoration: props.completed ? 'line-through' : 'none' }}
+            style={{ background: props.completed ? 'gray' : '#f3f2f2' }}
         >
             {props.text}
         </li>

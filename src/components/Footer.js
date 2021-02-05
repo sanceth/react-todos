@@ -3,7 +3,7 @@ import FooterFilter from '../containers/FooterFilter'
 import {VisibilityFilters,setVisibilityFilter} from '../actions/index'
 
 const Footer = () => {
-    return (<div>
+    return (<div className="btn-container" >
         <FooterFilter label="All" filter={VisibilityFilters.SHOW_ALL} />
         <FooterFilter label="Active" filter={VisibilityFilters.SHOW_ACTIVE} />
         <FooterFilter label="completed" filter={VisibilityFilters.SHOW_COMPLETED} />
